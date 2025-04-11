@@ -1,0 +1,11 @@
+node_modules
+
+# nextjs
+.next
+out
+dist
+next-env.d.ts
+
+# vim
+.vim
+.swp

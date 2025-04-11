@@ -1,0 +1,31 @@
+.card {
+  min-width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 1rem;
+  cursor: pointer;
+  flex-shrink: 0;
+  transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+  background-color: #fff;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.focused {
+  border: 2px solid #0070f3;
+  box-shadow: 0 0 10px rgba(0, 112, 243, 0.5);
+}
+
+.cardTitle {
+  margin: 0 0 0.5rem;
+  font-size: 1.25rem;
+  color: #333;
+}
+
+.card p {
+  margin: 0.25rem 0;
+  color: #555;
+}
