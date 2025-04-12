@@ -48,7 +48,7 @@ const Home: React.FC<HomeProps> = ({ restaurants }) => {
   return (
     <Layout>
       <div className={styles.container}>
-        <h1 className={styles.title}>成大隨機點餐系統</h1>
+        <h1 className={styles.title}>成大餐廳選隨機擇器</h1>
 
         <Filter restaurants={restaurants} onSearch={handleSearch} />
 

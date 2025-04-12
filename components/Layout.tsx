@@ -17,6 +17,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
         <link rel="shortcut icon" href="/favicon.ico" />
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
         <link rel="manifest" href="/site.webmanifest" />
+        <title>成大餐廳隨機選擇器</title>
       </Head>
       <GoogleAnalytics gaId="G-N9BTT1B82K" />
       {/* Navbar / Header */}
