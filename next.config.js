@@ -3,7 +3,6 @@
  */
 const nextConfig = {
   output: "export",
-  basePath: "/nckufood",
   trailingSlash: true,
   distDir: "dist",
 };
